@@ -1530,13 +1530,13 @@
             document.querySelector('.letter-text').innerHTML = `${WEDDING_DATA.groom.firstName} & ${WEDDING_DATA.bride.firstName}`;
 
             // Families
-            document.getElementById('fam-groom-name').textContent = `${WEDDING_DATA.groom.firstName} ${WEDDING_DATA.groom.lastName}`;
+            document.getElementById('fam-groom-name').textContent = `${WEDDING_DATA.groom.firstName} .${WEDDING_DATA.groom.lastName}`;
             document.getElementById('fam-groom-house').textContent = WEDDING_DATA.groom.house;
             document.getElementById('fam-groom-father').textContent = WEDDING_DATA.groom.father;
             document.getElementById('fam-groom-mother').textContent = WEDDING_DATA.groom.mother;
             document.getElementById('fam-groom-siblings').innerHTML = WEDDING_DATA.groom.siblings.join('<br>');
 
-            document.getElementById('fam-bride-name').textContent = `${WEDDING_DATA.bride.firstName} ${WEDDING_DATA.bride.lastName}`;
+            document.getElementById('fam-bride-name').textContent = `${WEDDING_DATA.bride.firstName} .${WEDDING_DATA.bride.lastName}`;
             document.getElementById('fam-bride-house').textContent = WEDDING_DATA.bride.house;
             document.getElementById('fam-bride-father').textContent = WEDDING_DATA.bride.father;
             document.getElementById('fam-bride-mother').textContent = WEDDING_DATA.bride.mother;
